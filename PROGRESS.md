@@ -7,26 +7,35 @@ Tracking issue: [dm-bip#221](https://github.com/linkml/dm-bip/issues/221)
 
 | Study | dbGaP ID | Version | Consent | Status | Last Run | Notes |
 |-------|----------|---------|---------|--------|----------|-------|
-| COPDGene | phs000179 | v6 | c1 | Complete | | HMB consent |
-| COPDGene | phs000179 | v6 | c2 | Complete | | DS-CS consent |
-| FHS | phs000007 | v31 | c1 | Complete | 2025-12-15 | |
-| CHS | phs000287 | v7 | c1 | Complete | 2025-12-10 | |
-| HCHS_SOL | phs000810 | v1 | c1 | Complete | 2025-12-08 | |
-| MESA | phs000209 | v13 | c1 | Complete | 2025-12-12 | |
-| WHI | phs000200 | v12 | c1 | Complete | 2025-12-14 | |
-| CARDIA | phs000285 | v3 | c1 | Complete | 2025-09-02 | |
-| ARIC | phs000280 | v8 | c1 | Complete | | |
-| JHS | phs000286 | v7 | c1 | Complete | | |
+| COPDGene | phs000179 | v6 | c1 | Complete | | HMB |
+| COPDGene | phs000179 | v6 | c2 | Complete | | DS-CS (COPD/Smoking) |
+| FHS | phs000007 | v31 | c1 | Complete | 2025-12-15 | HMB-IRB-MDS |
+| CHS | phs000287 | v7 | c1 | Complete | 2025-12-10 | HMB-MDS |
+| HCHS_SOL | phs000810 | v1 | c1 | Complete | 2025-12-08 | HMB-NPU |
+| MESA | phs000209 | v13 | c1 | Complete | 2025-12-12 | HMB |
+| WHI | phs000200 | v12 | c1 | Complete | 2025-12-14 | HMB-IRB |
+| CARDIA | phs000285 | v3 | c1 | Complete | 2025-09-02 | HMB-IRB |
+| ARIC | phs000280 | v8 | c1 | Complete | | HMB-IRB |
+| JHS | phs000286 | v7 | c1 | Complete | | HMB-IRB-NPU |
 
 ## Outstanding Cohorts
 
 The following cohorts/consent groups have not yet been ingested:
 
-<!-- Add rows here as you identify additional cohorts -->
-
-| Study | Version | Consent | Status | Blocker |
-|-------|---------|---------|--------|---------|
-| | | | | |
+| Study | Version | Consent | Status | Notes |
+|-------|---------|---------|--------|-------|
+| FHS | v31 | c2 | Pending | HMB-IRB-NPU-MDS (Non-profit use only) |
+| CHS | v7 | c2 | Pending | HMB-NPU-MDS (Non-profit use only) |
+| CHS | v7 | c3 | Pending | DS-CVD-MDS (Disease-Specific: CVD) |
+| CHS | v7 | c4 | Pending | DS-CVD-NPU-MDS (CVD, Non-profit only) |
+| HCHS_SOL | v1 | c2 | Pending | HMB (Health/Medical/Biomedical) |
+| MESA | v13 | c2 | Pending | HMB-NPU (Non-profit use only) |
+| WHI | v12 | c2 | Pending | HMB-IRB-NPU (Non-profit use only) |
+| CARDIA | v3 | c2 | Pending | HMB-IRB-NPU (Non-profit use only) |
+| ARIC | v8 | c2 | Pending | DS-CVD-IRB (Disease-Specific: CVD) |
+| JHS | v7 | c2 | Pending | DS-FDO-IRB-NPU (Focused Disease, Non-profit) |
+| JHS | v7 | c3 | Pending | HMB-IRB (Health/Medical/Biomedical) |
+| JHS | v7 | c4 | Pending | DS-FDO-IRB (Focused Disease Only) |
 
 ## Output Locations
 
