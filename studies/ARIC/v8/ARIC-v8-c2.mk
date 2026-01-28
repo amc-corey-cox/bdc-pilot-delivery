@@ -9,7 +9,7 @@
 # - Minneapolis suburbs, MN
 # - Washington County, MD
 
-DM_INPUT_DIR         := /sbgenomics/workspace/output/ARIC_c2
+DM_INPUT_DIR         := /sbgenomics/workspace/output/ARIC_cleaned/ARIC-v8-c2
 DM_SCHEMA_NAME       := ARIC_v8_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/ARIC/Schema_ARIC_v8_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/ARIC-ingest

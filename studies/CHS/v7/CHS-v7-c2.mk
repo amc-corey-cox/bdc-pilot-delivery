@@ -9,7 +9,7 @@
 # - Washington County, MD
 # - Pittsburgh, PA
 
-DM_INPUT_DIR         := /sbgenomics/workspace/output/CHS_cleaned/CHS_v7_c2
+DM_INPUT_DIR         := /sbgenomics/workspace/output/CHS_cleaned/CHS-v7-c2
 DM_SCHEMA_NAME       := CHS_v7_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/CHS/Schema_CHS_v7_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/CHS-ingest

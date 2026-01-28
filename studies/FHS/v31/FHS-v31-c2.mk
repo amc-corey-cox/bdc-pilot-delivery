@@ -7,7 +7,8 @@
 # - Offspring cohort (1971, 5,124 participants)
 # - Third Generation (2002-2005, 4,095 participants)
 
-DM_INPUT_DIR         := /sbgenomics/workspace/output/FHS_v31_c2
+# NOTE: Data not yet available for c2
+DM_INPUT_DIR         := /sbgenomics/workspace/output/FHS_cleaned/FHS-v31-c2
 DM_SCHEMA_NAME       := FHS_v31_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/Schema_FHS_v31_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/FHS-ingest

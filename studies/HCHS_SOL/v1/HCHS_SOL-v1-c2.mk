@@ -6,7 +6,8 @@
 # Backgrounds: Cuban, Dominican, Mexican, Puerto Rican, Central/South American
 # Field Centers: San Diego, Chicago, Bronx, Miami
 
-DM_INPUT_DIR         := /sbgenomics/workspace/output/HCHS_SOL_cleaned_c2
+# NOTE: Directory named HCHS-v1-c2 (inconsistent with c1 naming)
+DM_INPUT_DIR         := /sbgenomics/workspace/output/HCHS_SOL_cleaned/HCHS-v1-c2
 DM_SCHEMA_NAME       := HCHS_SOL_v1_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/HCHS_SOL/Schema_HCHS_SOL_v1_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/HCHS-ingest
