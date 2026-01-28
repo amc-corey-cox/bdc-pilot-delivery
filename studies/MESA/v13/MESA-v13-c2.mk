@@ -10,6 +10,6 @@ DM_INPUT_DIR         := /sbgenomics/workspace/output/MESA_cleaned/MESA-v13-c2
 DM_SCHEMA_NAME       := MESA_v13_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/MESA/Schema_MESA_v13_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/MESA-ingest
-DM_MAP_TARGET_SCHEMA := /sbgenomics/project-files/bdchm.yaml
+DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := MESA
 DM_MAPPING_POSTFIX   := -HMB-NPU-data

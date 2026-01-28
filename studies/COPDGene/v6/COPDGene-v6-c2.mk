@@ -10,6 +10,6 @@ DM_INPUT_DIR         := /sbgenomics/workspace/output/COPDGene_cleaned/COPDGene-v
 DM_SCHEMA_NAME       := COPDGene_v6_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/COPDGene_v6_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/COPDGene-ingest
-DM_MAP_TARGET_SCHEMA := /sbgenomics/project-files/bdchm.yaml
+DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := COPDGene
 DM_MAPPING_POSTFIX   := -DS-CS-data
