@@ -28,8 +28,8 @@ This repository contains Makefile configurations for running the dm-bip harmoniz
 From the dm-bip repository:
 
 ```bash
-# Run pipeline for a specific study
-make -f pipeline.Makefile include=../bdc-pilot-delivery/studies/CHS/config.mk
+# Run pipeline for a specific study/version/consent
+make -f pipeline.Makefile include=../bdc-pilot-delivery/studies/CHS/v7/CHS-v7-c1.mk
 
 # Or set variables directly
 make pipeline \
@@ -40,15 +40,21 @@ make pipeline \
 
 ## Structure
 
+Config files follow the naming pattern `STUDY-vVERSION-cCONSENT.mk` for easy identification in logs and when copied.
+
 ```
 bdc-pilot-delivery/
 ├── README.md           # This file
 ├── PROGRESS.md         # Cohort completion tracking
 └── studies/
     ├── COPDGene/
-    │   └── config.mk   # Makefile variables for COPDGene
+    │   └── v6/
+    │       ├── COPDGene-v6-c1.mk
+    │       └── COPDGene-v6-c2.mk
     ├── FHS/
-    │   └── config.mk
+    │   └── v31/
+    │       ├── FHS-v31-c1.mk
+    │       └── FHS-v31-c2.mk
     └── ...
 ```
 
