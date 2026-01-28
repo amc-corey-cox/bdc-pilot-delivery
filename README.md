@@ -25,17 +25,29 @@ This repository contains Makefile configurations for running the dm-bip harmoniz
 
 ## Usage
 
+### BDC Data Cruncher
+
+From a Data Cruncher terminal, clone both repositories and run:
+
+```bash
+cd /sbgenomics/workspace
+git clone https://github.com/linkml/dm-bip.git
+git clone https://github.com/amc-corey-cox/bdc-pilot-delivery.git
+
+cd dm-bip
+make CONFIG=../bdc-pilot-delivery/studies/CHS/v7/CHS-v7-c1.mk
+```
+
+### Local Development
+
 From the dm-bip repository:
 
 ```bash
-# Run pipeline for a specific study/version/consent
-make -f pipeline.Makefile include=../bdc-pilot-delivery/studies/CHS/v7/CHS-v7-c1.mk
+# Run pipeline with a config file
+make CONFIG=../bdc-pilot-delivery/studies/CHS/v7/CHS-v7-c1.mk
 
 # Or set variables directly
-make pipeline \
-  DM_INPUT_DIR=/sbgenomics/workspace/output/CHS_cleaned/CHS_v7_c1 \
-  DM_SCHEMA_NAME=CHS_v7_c1 \
-  ...
+make DM_INPUT_DIR=/path/to/data DM_SCHEMA_NAME=CHS_v7_c1 DM_OUTPUT_DIR=/path/to/output ...
 ```
 
 ## Structure
