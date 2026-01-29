@@ -13,3 +13,4 @@ DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variable
 DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := COPDGene
 DM_MAPPING_POSTFIX   := -DS-CS-data
+
