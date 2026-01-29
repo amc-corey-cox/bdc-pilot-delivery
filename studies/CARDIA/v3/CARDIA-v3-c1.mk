@@ -6,10 +6,10 @@
 # Longitudinal follow-up through Year 25+ examinations.
 # Four centers: Birmingham AL, Chicago IL, Minneapolis MN, Oakland CA
 
-DM_INPUT_DIR         := /sbgenomics/workspace/output/CARDIA
+DM_INPUT_DIR         := /sbgenomics/workspace/output/CARDIA_cleaned/CARDIA-v3-c1
 DM_SCHEMA_NAME       := CARDIA_v3_c1
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/CARDIA/Schema_CARDIA_v3_c1
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/CARDIA-ingest
-DM_MAP_TARGET_SCHEMA := /sbgenomics/project-files/bdchm.yaml
+DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := CARDIA
 DM_MAPPING_POSTFIX   := -data
