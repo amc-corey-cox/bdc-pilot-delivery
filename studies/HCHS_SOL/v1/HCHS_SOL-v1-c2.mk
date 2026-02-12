@@ -8,9 +8,11 @@
 
 # NOTE: Directory named HCHS-v1-c2 (inconsistent with c1 naming)
 DM_INPUT_DIR         := /sbgenomics/workspace/output/HCHS_SOL_cleaned/HCHS-v1-c2
+DM_RAW_SOURCE        := /sbgenomics/project-files/HCHS_SOL/HCHS_SOL-v1-c2
 DM_SCHEMA_NAME       := HCHS_SOL_v1_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/HCHS_SOL/Schema_HCHS_SOL_v1_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/HCHS-ingest
+DM_MAPPING_SPEC      := $(DM_TRANS_SPEC_DIR)
 DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := HCHS-SOL
 DM_MAPPING_POSTFIX   := -HMB-data

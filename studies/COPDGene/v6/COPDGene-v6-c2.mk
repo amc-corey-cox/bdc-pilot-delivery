@@ -7,9 +7,11 @@
 
 # NOTE: Data not yet available for c2
 DM_INPUT_DIR         := /sbgenomics/workspace/output/COPDGene_cleaned/COPDGene-v6-c2
+DM_RAW_SOURCE        := /sbgenomics/project-files/COPDGene/COPDGene-v6-c2
 DM_SCHEMA_NAME       := COPDGene_v6_c2
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/COPDGene_v6_c2
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/COPDGene-ingest
+DM_MAPPING_SPEC      := $(DM_TRANS_SPEC_DIR)
 DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := COPDGene
 DM_MAPPING_POSTFIX   := -DS-CS-data
