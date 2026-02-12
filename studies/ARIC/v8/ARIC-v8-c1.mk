@@ -10,9 +10,11 @@
 # - Washington County, MD
 
 DM_INPUT_DIR         := /sbgenomics/workspace/output/ARIC_cleaned/ARIC-v8-c1
+DM_RAW_SOURCE        := /sbgenomics/project-files/ARIC
 DM_SCHEMA_NAME       := ARIC_v8_c1
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/ARIC/Schema_ARIC_v8_c1
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/ARIC-ingest
+DM_MAPPING_SPEC      := $(DM_TRANS_SPEC_DIR)
 DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := ARIC
 DM_MAPPING_POSTFIX   := -data
