@@ -7,7 +7,7 @@
 # - Offspring cohort (1971, 5,124 participants)
 # - Third Generation (2002-2005, 4,095 participants)
 
-# NOTE: Data not yet available for c2
+# NOTE: Cleaned outputs for c2 not yet available; raw source is defined below
 DM_INPUT_DIR         := /sbgenomics/workspace/output/FHS_cleaned/FHS-v31-c2
 DM_RAW_SOURCE        := /sbgenomics/project-files/PilotParentStudies/nih-nhlbi-topmed-parent-fhs-phs000007-v35-r1-c2
 DM_SCHEMA_NAME       := FHS_v31_c2
