@@ -7,7 +7,7 @@
 # Two components: Clinical Trial (68,132) and Observational Study
 
 DM_INPUT_DIR         := /sbgenomics/workspace/output/WHI_cleaned/WHI-v12-c1
-DM_RAW_SOURCE        := /sbgenomics/project-files/WHI/WHI-v12-c1
+DM_RAW_SOURCE        := /sbgenomics/project-files/PilotParentStudies/WHI/WHI-v12-c1
 DM_SCHEMA_NAME       := WHI_v12_c1
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/WHI/Schema_WHI_v12_c1
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/WHI-ingest

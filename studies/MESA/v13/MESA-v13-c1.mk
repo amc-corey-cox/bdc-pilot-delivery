@@ -7,7 +7,7 @@
 # Six field centers across the US
 
 DM_INPUT_DIR         := /sbgenomics/workspace/output/MESA_cleaned/MESA-v13-c1
-DM_RAW_SOURCE        := /sbgenomics/project-files/MESA/MESA-v13-c1
+DM_RAW_SOURCE        := /sbgenomics/project-files/PilotParentStudies/MESA/MESA-v13-c1
 DM_SCHEMA_NAME       := MESA_v13_c1
 DM_OUTPUT_DIR        := /sbgenomics/workspace/output/MESA/Schema_MESA_v13_c1
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/MESA-ingest
