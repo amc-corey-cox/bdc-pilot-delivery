@@ -1,19 +1,18 @@
 # FHS - Framingham Heart Study
 # dbGaP: phs000007
-# Version: v31, Consent: c2 (HMB-IRB-NPU-MDS)
+# Version: v35, Consent: c1
 #
 # Landmark cardiovascular study since 1948. Three generations:
 # - Original cohort (1948)
 # - Offspring cohort (1971, 5,124 participants)
 # - Third Generation (2002-2005, 4,095 participants)
 
-# NOTE: Cleaned outputs for c2 not yet available; raw source is defined below
-DM_INPUT_DIR         := /sbgenomics/workspace/output/FHS_cleaned/FHS-v31-c2
-DM_RAW_SOURCE        := /sbgenomics/project-files/PilotParentStudies/FHS/nih-nhlbi-topmed-parent-fhs-phs000007-v31-r1-c2
-DM_SCHEMA_NAME       := FHS_v31_c2
-DM_OUTPUT_DIR        := /sbgenomics/workspace/output/Schema_FHS_v31_c2
+DM_INPUT_DIR         := /sbgenomics/workspace/output/FHS_cleaned/FHS-v35-c1
+DM_RAW_SOURCE        := /sbgenomics/project-files/PilotParentStudies/FHS/nih-nhlbi-topmed-parent-fhs-phs000007-v35-r1-c1
+DM_SCHEMA_NAME       := FHS_v35_c1
+DM_OUTPUT_DIR        := /sbgenomics/workspace/output/Schema_FHS_v35_c1
 DM_TRANS_SPEC_DIR    := /sbgenomics/workspace/NHLBI-BDC-DMC-HV/priority_variables_transform/FHS-ingest
 DM_MAPPING_SPEC      := $(DM_TRANS_SPEC_DIR)
 DM_MAP_TARGET_SCHEMA := /sbgenomics/workspace/NHLBI-BDC-DMC-HM/src/bdchm/schema/bdchm.yaml
 DM_MAPPING_PREFIX    := FHS
-DM_MAPPING_POSTFIX   := -HMB-IRB-NPU-MDS-data
+DM_MAPPING_POSTFIX   := -data
